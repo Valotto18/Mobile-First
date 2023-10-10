@@ -1,0 +1,15 @@
+@import url("./css/header.css");
+
+:root {                             /* I                      */
+    --cor-de-fundo: #EBECEE;      /* I     Variáveis CSS    */
+    --branco: #fff;               /* I                      */
+}                                    
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}

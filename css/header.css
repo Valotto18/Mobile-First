@@ -1,0 +1,32 @@
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg"); /* Usada para definir uma imagem de fundo para um elemento HTML */
+                                              /* Essas imagens não são consideradas conteúdo do texto da página e 
+                                              são usadas para melhorar o layout e a aparência visual do site. */
+    
+    display: inline-block;                    /*display: inline-block é uma propriedade CSS que combina características de dois outros valores*/
+                                              /*de exibição, inlinee block. Isso permite que um elemento seja exibido em linha, como elementos inline, */
+                                              /*mas também tenha algumas propriedades de layout semelhantes a elementos block.*/
+    background-repeat: no-repeat;             /* Quando definimos o valor de 24px, ele ultrapassa o tamanho pois sua origem
+                                                 era de valor maior, estagnado sua repetição ele se mantém uniforme*/
+    background-position: center;                                          
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
+.container__imagem {
+    padding: 1em;
+}
